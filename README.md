@@ -3,12 +3,13 @@
 1. Project Overview
 2. Installation
 3. Usage 
-4. Classes and Methods 
-5. Deactivate Virtual Environment
+4. Deactivate Virtual Environment
 ## **Project Overview**
 This project utilizes basic brute force techniques and the nltk module to decrypt a caesar cypher without knowing the encryption key. It decodes the encryption and provides the encryption key as well.
 ## **Installation**
-`git clone https://github.com/Daindia/Caesar-Cipher.git`\
+`git clone https://github.com/Daindia/Caesar-Cipher.git`
+### **Installing nltk module:**
+`pip install nltk`
 
 ### **Creating a virtual environment:**
 
@@ -27,8 +28,17 @@ This project utilizes basic brute force techniques and the nltk module to decryp
   
   `decrypter("Uy tmbbk zai")`
 
-## **Classes and Methods**
-> This project uses one class to simulate a basic calculator system
-- `Calculator` : A base class with methods `add()` and `multiply`
+- **Downloading word corpus:**
+  > Downloads a list of English words
+
+  ```python
+  import nltk
+  from nltk.corpus import words
+
+  nltk.download("words")
+
+  # Creates a set of englsih words
+  english_words = set(words.words())
+  
 ## **Deactivate Virtual Environment**
 `deactivate`
