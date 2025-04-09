@@ -26,7 +26,9 @@ This project utilizes basic brute force techniques and the nltk module to decryp
 > Runs with any code editor that supports python
 - **You can provide an encrypted text like:**
   
-  `decrypter("Uy tmbbk zai")`
+  ```python
+  decrypter("Uy tmbbk zai")
+  ```
 
 - **Downloading word corpus:**
   > Downloads a list of English words
